@@ -1,0 +1,59 @@
+site_name: Gelonezi ExplorerIO Docs
+repo_name: gelonezi/gelonezi-explorerio-docs
+repo_url: https://github.com/gelonezi/gelonezi-explorerio-docs
+edit_uri: blob/main/src/docs
+
+docs_dir: docs
+
+nav:
+  - Home: index.md
+  - Quickstart: getting-started/quickstart.md
+  - Architecture:
+      - Overview: architecture/overview.md
+      - Modules & Components: architecture/modules-and-components.md
+      - Workflow: architecture/workflow.md
+  - Installation:
+      - Docker Compose: installation/docker-compose.md
+      - Environment Variables: installation/env-vars.md
+  - Features:
+      - Authentication: features/authentication.md
+      - Services Integration: features/services-integration.md
+      - Search: features/search-functionality.md
+      - Caching: features/cached-data.md
+      - UI: features/user-interface.md
+  - API:
+      - Overview: api/overview.md
+      - Endpoints: api/endpoints.md
+  - Contributing:
+      - Guidelines: contributing/guidelines.md
+      - Code of Conduct: contributing/code-of-conduct.md
+      - Project Boards: contributing/project-boards.md
+  - Changelog: changelog/changelog.md
+  - License: license/license.md
+  - About: about/about-author.md
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/eye
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/eye-outline
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - header.autohide
+  language: en
+
+plugins:
+  - search
+  - git-revision-date
+  - minify
