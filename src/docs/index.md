@@ -1,6 +1,6 @@
 # ExplorerIO Documentation
 
-Welcome to the central documentation hub for **ExplorerIO**, an open-source tool to navigate and manage files on cloud storage services.
+Welcome to the central documentation hub for **Gelonezi ExplorerIO**, an open-source tool to navigate and manage files on cloud storage services.
 
 ## What is ExplorerIO?
 

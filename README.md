@@ -1,6 +1,8 @@
-# ExplorerIO Documentation
+# Gelonezi ExplorerIO Documentation
 
-Welcome to the central documentation hub for **ExplorerIO**, an open‑source tool to navigate and manage files across multiple cloud storage services.
+[![GitHub Repo](https://img.shields.io/badge/github-gelonezi%2Fexplorerio--docs-orange)](https://github.com/gelonezi/explorerio-docs)
+
+Welcome to the central documentation hub for **Gelonezi ExplorerIO**, an open‑source tool to navigate and manage files across multiple cloud storage services.
 
 ExplorerIO offers a unified interface for AWS S3 (initial release) and will soon support Google Drive, Dropbox, OneDrive, and Azure Blob.
 
